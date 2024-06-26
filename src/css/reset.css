@@ -1,4 +1,10 @@
-/* Reset styles */
+й/* Reset styles */
+body {
+  background-color: #fbfbfb;
+  font-family: 'Gilroy', sans-serif;
+  color: #0c0c0c;
+}
+
 h1,
 h2,
 h3,
