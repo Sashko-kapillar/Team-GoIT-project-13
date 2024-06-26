@@ -1,21 +1,33 @@
 .header {
-  padding: 20px 0;
+  height: 88px;
+  max-width: 1440px;
 }
 
-.nav-list {
+/* .container {
+} */
+
+.header-container {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
-}
+  padding: 24px 64.5px;
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
 }
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.top-line-nav {
+}
+.menu-link {
+}
+.menu-list {
+}
+.menu-item {
+}
+.menu-link-item {
+}
+.current {
+}
+.team-icon-list {
+}
+.team-icon-item {
+}
+.team-icon-link {
+}
+.team-icon-item-position {
 }
