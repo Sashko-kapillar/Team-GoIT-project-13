@@ -1,0 +1,45 @@
+body {
+    font-family: "Gilroy", sans-serif;
+    background-color: #fbfbfb;
+    color: #0c0c0c;
+    margin: 0;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+}
+
+.container {
+    width: 335px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.sale-list-slider {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sale-list-item {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
+    width: 80px;
+    height: 80px;
+    background: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sale-watch-active {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    width: 335px;
+    height: 385px;
+    background-color: #f3f3f3;
+}
