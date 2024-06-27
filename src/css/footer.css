@@ -4,6 +4,7 @@ max-width: 375px;
 padding: 0 20px;
 margin: 0 auto;
 }
+
 .footer-container {
 min-width: 280px;
 max-width: 375px;
@@ -151,12 +152,10 @@ color: rgba(251, 251, 251, 0.5);
 
 @media screen and (min-width: 768px) {
  /* Footer*/
- .footer {
-     padding: 40px 28px 40px 40px;
- }
 
  .footer-container {
-     max-width: 624px;
+    max-width: 768px;
+    padding: 40px 28px 40px 40px;
  }
 
  .container-logo {
