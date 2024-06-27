@@ -5,6 +5,12 @@ body {
     margin: 0;
 }
 
+.container {
+    width: 335px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
 .title {
     font-weight: 600;
     font-size: 32px;
@@ -12,10 +18,13 @@ body {
     letter-spacing: -0.02em;
 }
 
-.container {
-    width: 335px;
-    padding: 0 20px;
-    margin: 0 auto;
+
+.sale-choise {
+    margin-bottom: 20px;
+}
+
+.sale-title {
+    margin-bottom: 24px;
 }
 
 .sale-list-slider {
@@ -23,6 +32,7 @@ body {
     gap: 5px;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .sale-list-item {
@@ -37,9 +47,93 @@ body {
 }
 
 .sale-watch-active {
+    padding: 50px;
+    display: inline-block;
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
-    width: 335px;
-    height: 385px;
     background-color: #f3f3f3;
+}
+
+.sale-watch-active-img {}
+
+.sale-info {
+    border-radius: 30px;
+    background-color: #3350e9;
+    padding: 48px 28px;
+}
+
+.sale-info-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 10px;
+}
+
+.product-tag {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+    margin-bottom: 20px;
+}
+
+.sale-price {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin-bottom: 28px;
+    align-items: center;
+}
+
+.current-price {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    border-radius: 8px;
+    min-width: 68px;
+    background: rgba(251, 251, 251, 0.1);
+    text-align: center;
+    padding: 8px 0;
+}
+
+.old-price {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.watch-descr {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+    margin-bottom: 28px;
+}
+
+.watch-feature {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.watch-feature-item {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #fbfbfb;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+    /* width: 128px;
+        height: 32px; */
 }
