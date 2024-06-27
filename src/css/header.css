@@ -3,12 +3,13 @@
 }
 
 .header {
-  /* max-width: 1440px; */
+  max-width: 1280px;
   /* background-color: #cecece; */
 }
 
 .container {
-  
+  /* max-width: 1280; */
+  margin: 0;
 }
 
 .header-container {
@@ -16,9 +17,9 @@
   height: 88px;
   align-items: center;
   justify-content: space-between;
-  /* max-width: 1280px;
+  max-width: 1150px;
   padding: 0 64px;
-  margin: 0 auto; */
+  margin: 0 auto;
 }
 .top-line-nav {
   display: flex;
@@ -51,6 +52,11 @@
 }
 .current {
 }
+
+.social-container {
+  display: flex;
+}
+
 .social-icon-list {
   display: flex;
   gap: 10px;
