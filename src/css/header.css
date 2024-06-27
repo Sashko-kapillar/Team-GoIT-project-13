@@ -1,4 +1,3 @@
-
 .header {
   max-width: 1280px;
   /* background-color: #cecece; */
@@ -36,7 +35,7 @@
   display: flex;
   gap: 40px;
   align-items: center;
-  
+
   flex-basis: auto;
 }
 .menu-item {
@@ -44,7 +43,17 @@
   font-size: 14px;
   line-height: 129%;
   text-align: center;
+  max-width: 88px;
 }
+
+.stretch-container {
+  display: flex;
+  width: 100%;
+  background-color: #ccc;
+  align-items: stretch;
+  height: 100%;
+}
+
 .menu-link-item {
 }
 .current {
@@ -72,8 +81,8 @@
 }
 
 .stroke {
-width: 100%;
-height: 2px;
-background-color: rgba(12, 12, 12, 0.1);
+  width: 100%;
+  height: 2px;
+  background-color: rgba(12, 12, 12, 0.1);
   /* border: 2px solid rgba(12, 12, 12, 0.1); */
 }
