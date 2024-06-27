@@ -1,4 +1,10 @@
 /* Reset styles */
+body {
+  font-family: "Gilroy", sans-serif;
+  background-color: #fbfbfb;
+  color: #0c0c0c;
+}
+
 h1,
 h2,
 h3,
@@ -32,4 +38,42 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.container {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 335px;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 704px;
+    padding: 0 32px;
+  }
+
+  .title {
+    font-size: 48px;
+    line-height: 0.92;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1150px;
+    padding: 0 65px;
+  }
 }
