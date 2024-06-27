@@ -1,16 +1,13 @@
-* {
-  box-sizing: border-box;
-}
 
 .header {
   max-width: 1280px;
   /* background-color: #cecece; */
 }
 
-.container {
-  /* max-width: 1280; */
+/* .container {
+  max-width: 1280;
   margin: 0;
-}
+} */
 
 .header-container {
   display: flex;
@@ -19,7 +16,7 @@
   justify-content: space-between;
   max-width: 1150px;
   padding: 0 64px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 .top-line-nav {
   display: flex;
