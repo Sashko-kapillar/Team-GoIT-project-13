@@ -1,10 +1,4 @@
 /* Reset styles */
-body {
-  font-family: "Gilroy", sans-serif;
-  background-color: #fbfbfb;
-  color: #0c0c0c;
-}
-
 h1,
 h2,
 h3,
@@ -40,11 +34,6 @@ img {
   height: auto;
 }
 
-.container {
-  width: 320px;
-  margin: 0 auto;
-}
-
 .title {
   font-weight: 600;
   font-size: 32px;
@@ -55,7 +44,6 @@ img {
 @media screen and (min-width: 375px) {
   .container {
     width: 375px;
-    padding: 0 20px;
   }
 }
 
