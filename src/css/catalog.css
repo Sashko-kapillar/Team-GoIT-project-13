@@ -41,8 +41,9 @@
   display: none;
 }
 .catalog-item {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
+
 .btn-show-more {
   border-radius: 16px;
   width: 160px;
