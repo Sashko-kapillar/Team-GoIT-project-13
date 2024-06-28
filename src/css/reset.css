@@ -82,3 +82,8 @@ img {
     padding: 0 65px;
   }
 }
+
+.section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
