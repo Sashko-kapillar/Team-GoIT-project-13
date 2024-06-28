@@ -107,6 +107,7 @@ width: 100%;
 height: auto; 
 }
 
+
 @media screen and (min-width: 768px) {
     .section-hero {
     padding: 80px 0;
@@ -125,9 +126,10 @@ height: auto;
     .text-hero {
         font-size: 16px;
         line-height: 1.25;
+        max-width: 480px;
         }
 
-        .container {
+        .container-container {
             display: flex; 
             flex-direction: row; 
             align-items:  space-between;
@@ -135,7 +137,7 @@ height: auto;
             gap: 11px;
         }
     
-        .container-customer-hero {
+        .container-two {
             display: flex; 
             flex-direction: column;
             align-items: flex-end;
@@ -189,8 +191,9 @@ height: auto;
         line-height: 0.875;
     }
     
-    .container {
-        max-width: 597px;
+    .container-container {
+        
+        gap: 407px;
     }
 
     .picture-customer-hero {
