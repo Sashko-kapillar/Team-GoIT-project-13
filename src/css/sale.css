@@ -7,7 +7,12 @@
 }
 
 .sale-choise {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
     margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .sale-list-slider {
@@ -15,14 +20,12 @@
     gap: 5px;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
 }
 
 .sale-list-item {
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 16px;
-    width: 80px;
-    height: 80px;
+    padding: 13px 14px;
     background: #f3f3f3;
     display: flex;
     align-items: center;
@@ -63,7 +66,6 @@
 
 .sale-price {
     display: flex;
-    flex-wrap: wrap;
     gap: 9px;
     margin-bottom: 28px;
     align-items: center;
@@ -77,9 +79,10 @@
     color: #fbfbfb;
     border-radius: 8px;
     min-width: 68px;
+    min-height: 32px;
+    align-content: center;
     background: rgba(251, 251, 251, 0.1);
     text-align: center;
-    padding: 8px 0;
 }
 
 .old-price {
@@ -115,4 +118,68 @@
     border: 1px solid rgba(251, 251, 251, 0.2);
     border-radius: 8px;
     padding: 8px 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .sale {
+        margin-bottom: 80px;
+    }
+
+    .sale-title {
+        margin-bottom: 40px;
+    }
+
+    .sale-choise {
+        flex-direction: row;
+        margin-bottom: 40px;
+        /* width: calc((100% - 20px) / 2); */
+    }
+
+    .sale-list-slider {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .sale-list-item {
+        border-radius: 20px;
+        padding: 16px 18px;
+    }
+
+    .sale-watch-active {
+        border-radius: 50px;
+        padding: 80px 112px;
+    }
+
+    .sale-info {
+        padding: 60px;
+    }
+
+    .sale-info-title {
+        width: 436px;
+        font-size: 32px;
+        line-height: 1.13;
+    }
+
+    .sale-price {
+        margin-bottom: 30px;
+    }
+
+    .current-price {
+        min-width: 78px;
+    }
+
+    .watch-descr {
+        font-size: 16px;
+        line-height: 1.25;
+        margin-bottom: 40px;
+    }
+
+    .watch-feature {
+        width: 398px;
+    }
+
+    .watch-feature-item {
+        font-size: 14px;
+        line-height: 1.29;
+    }
 }
