@@ -20,6 +20,7 @@
 
 .sale-list-item {
     border: 1px solid rgba(12, 12, 12, 0.05);
+}
 
 .current-price {
     font-weight: 600;
