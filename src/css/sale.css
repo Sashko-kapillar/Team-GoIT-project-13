@@ -1,0 +1,71 @@
+.sale {
+    margin-bottom: 60px;
+}
+
+.sale-title {
+    margin-bottom: 24px;
+}
+
+.sale-choise {
+    margin-bottom: 20px;
+}
+
+.sale-list-slider {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.sale-list-item {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+}
+
+.current-price {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    border-radius: 8px;
+    min-width: 68px;
+    background: rgba(251, 251, 251, 0.1);
+    text-align: center;
+    padding: 8px 0;
+}
+
+.old-price {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.watch-descr {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+    margin-bottom: 28px;
+}
+
+.watch-feature {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.watch-feature-item {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #fbfbfb;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+}
