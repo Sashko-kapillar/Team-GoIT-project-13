@@ -18,7 +18,6 @@
 .catalog-list {
   display: flex;
   flex-direction: column;
-  gap: 20px 0;
 }
 .catalog-item {
   margin-bottom: 40px;
