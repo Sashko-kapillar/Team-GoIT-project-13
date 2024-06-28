@@ -1,10 +1,7 @@
-
 .container {
-max-width: 375px;
-padding: 0 20px;
-margin: 0 auto;
+    margin: 0;
 }
-
+    
 .footer-container {
 min-width: 280px;
 max-width: 375px;
@@ -14,12 +11,12 @@ border-radius: 30px;
 background-color: #0c0c0c;
 }
 
-.footer-top {  
+.footer-logo-social {  
 display: flex;
 align-items: flex-start;
 justify-content: flex-start;
 flex-direction: column;
-margin-bottom: 40px;
+margin-bottom: 24px;
 }
 
 .footer-logo-link { 
@@ -34,23 +31,30 @@ margin-bottom: 20px;
 display: flex;
 flex-direction: row;
 gap: 10px;
-margin-bottom: 24px;     
 }
 
-.footer-social-link {
+.footer-social-item {
 border: 1px solid rgba(251, 251, 251, 0.1);
 border-radius: 10px;
-padding: 8px;
 width: 34px;
 height: 34px;
-margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+
 }
 
 .footer-social-icon {
 fill: #fbfbfb;
 opacity: 0.8;
+width: 18px;
+height: 18px;
 }
-
+.footer-contact {
+display: flex;
+align-items: flex-start;
+margin-bottom: 40px;
+}
 .footer-contact-link {
 font-weight: 500;
 font-size: 12px; 
@@ -81,14 +85,21 @@ margin: o auto;
 }
 
 .footer-menu {
+margin-bottom: 24px;
+}
+
+.footer-nav-menu {
 width: 147px;
 height: 64px;
-margin-bottom: 24px;
+display: flex;
+
+
 }
 
 .footer-menu-list {
 display: flex;
 gap: 16px;
+flex-wrap: wrap;
 }
 
 .footer-menu-item {
@@ -110,7 +121,6 @@ font-weight: 500;
 font-size: 12px;
 line-height: 1.33;
 color: #fbfbfb;
-max-width: 83px;
 }
 
 .footer-border {
@@ -147,66 +157,4 @@ line-height: 1.4;
 letter-spacing: -0.02em;
 text-align: right;
 color: rgba(251, 251, 251, 0.5);
-}
-
-
-@media screen and (min-width: 768px) {
- /* Footer*/
-
- .footer-container {
-    max-width: 768px;
-    padding: 40px 28px 40px 40px;
- }
-
- .container-logo {
-     width: 264px;
-     height: 112px;
-     margin-right: 24px;
-
- }
-
- .footer-logo {
-     justify-content: flex-start;
- }
-
- .container-social {
-     width: 208px;
-     height: 80px;
-     margin-bottom: 104px;
- }
-
- .footer-parag-media {
-     text-align: left;
- }
-
- .social-media-item:last-child {
-     margin-right: 0;
- }
-
- .container-subscribe {
-     align-items: flex-start;
- }
-
- .footer-parag-subscribe {
-     text-align: left;
-     display: block;
- }
-
- .form-subscribe {
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: center;
- }
-
- .input-subscribe {
-     opacity: 0.6;
- }
-
- .form-button {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     flex-direction: row;
- }
 }
