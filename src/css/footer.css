@@ -25,7 +25,9 @@
          font-size: 20px;
      }
 
-     .footer-social-list {}
+     .footer-social-list {
+
+     }
      .footer-social-item {
          width: 36px;
          height: 36px;
@@ -71,18 +73,18 @@
 
      .footer-menu-list {
          flex-wrap: nowrap;
-         gap: 19px;
-         margin-right: 62px;
          flex-direction: row;
      }
-
+     
+.footer-menu-list a:not(:last-child) {
+    gap: 19px;
+    
+}
      .footer-menu-item {
          font-size: 14px;
          line-height: 1.28;
      }
-.footer-social-icon {
 
-}
      .footer-address {
          max-width: 162px;
          max-height: 36px;
@@ -97,7 +99,7 @@
          line-height: 1.28;
          display: flex;
         
-         flex-wrap: nowrap;
+       
      }
 
      .footer-border {
