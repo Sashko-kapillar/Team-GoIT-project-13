@@ -59,6 +59,7 @@
   align-items: flex-start;
   margin-bottom: 40px;
 }
+
 .footer-contact-link {
   font-weight: 500;
   font-size: 12px;
@@ -161,11 +162,13 @@
     flex-direction: column;
     max-width: none;
   }
+
   .footer-box-tab {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
+
   .footer-logo-social {
     justify-content: space-between;
     flex-grow: 1;
@@ -175,19 +178,10 @@
     font-size: 20px;
   }
 
-  /* .footer-social-list {
-
-     } */
   .footer-social-item {
     width: 36px;
     height: 36px;
   }
-
-  /* .footer-social-link {
-        
-     } */
-
-  /* .footer-social-icon {} */
 
   .footer-contact {
     margin-left: 0;
@@ -212,7 +206,6 @@
 
   .footer-nav-menu {
     width: 100%;
-
     justify-content: space-between;
   }
 
@@ -224,6 +217,7 @@
   .footer-menu-list a:not(:last-child) {
     gap: 19px;
   }
+
   .footer-menu-item {
     font-size: 14px;
     line-height: 1.28;
