@@ -176,10 +176,19 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .sale-choise {
+        margin-bottom: unset;
+    }
+
     .sale-wrap {
         display: flex;
         gap: 40px;
-        margin-bottom: unset;
+
+
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        /* gap: 40px; */
         /* justify-content: center;
         align-items: center; */
         /* flex-direction: row; */
