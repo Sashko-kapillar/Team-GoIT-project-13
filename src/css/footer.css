@@ -50,6 +50,11 @@ opacity: 0.8;
 width: 18px;
 height: 18px;
 }
+.footer-social-icon:hover,
+.footer-social-icon:focus {
+fill: #3350e9;
+  }
+
 .footer-contact {
 display: flex;
 align-items: flex-start;
