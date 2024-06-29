@@ -150,7 +150,6 @@
     }
 
     .sale-info-title {
-
         font-size: 32px;
         line-height: 1.13;
     }
@@ -187,16 +186,10 @@
     .sale-wrap {
         display: flex;
         gap: 40px;
-
-
         align-items: flex-start;
         justify-content: flex-start;
-        flex-direction: column;
-        /* gap: 40px; */
-        /* justify-content: center;
-        align-items: center; */
-        /* flex-direction: row; */
-        /* justify-content: space-between; */
+        flex-direction: row;
+        flex-wrap: nowrap;
     }
 
     .sale-title {
@@ -205,5 +198,9 @@
 
     .sale-watch-active {
         padding: 80px 50px;
+    }
+
+    .sale-info {
+        max-width: 530px;
     }
 }
