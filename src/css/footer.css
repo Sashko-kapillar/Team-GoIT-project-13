@@ -40,15 +40,18 @@
 }
 
 .footer-social-icon {
-  fill: #fbfbfb;
+  fill: grey;
   opacity: 0.8;
   width: 18px;
   height: 18px;
 }
-.footer-social-icon:hover,
-.footer-social-icon:focus,
-.footer-social-icon:active {
-  fill: #fbfbfb;
+
+.footer-social-item:hover .footer-social-link .footer-social-icon {
+  fill: #ffffff;
+}
+
+.footer-social-item:focus .footer-social-link .footer-social-icon {
+  fill: #ffffff;
 }
 
 .footer-contact {
