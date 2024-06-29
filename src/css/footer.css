@@ -45,6 +45,11 @@
   width: 18px;
   height: 18px;
 }
+.footer-social-icon:hover,
+.footer-social-icon:focus,
+.footer-social-icon:active {
+  fill: #fbfbfb;
+}
 
 .footer-contact {
   display: flex;
