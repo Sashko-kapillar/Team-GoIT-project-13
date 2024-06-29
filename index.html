@@ -14,7 +14,7 @@
     />
     
     <script type="module" crossorigin src="/Team-GoIT-project-13/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Team-GoIT-project-13/assets/index-157fdbb1.css">
+    <link rel="stylesheet" href="/Team-GoIT-project-13/assets/index-0546866d.css">
   </head>
 
   <body>
@@ -235,33 +235,42 @@
     </div>
 </section>
       <section class="about-us">
-    <div class="container">
-        <div class="about-us-content">
-            <h2 class="about-us-title title">About Us</h2>
-                    <p class="about-us-text">
-                        Welcome to our premium watch collection, where luxury and style meet functionality and
-                        precision. Our selection of
-                        timepieces embodies the very best in Swiss craftsmanship and engineering, ensuring that you'll
-                        always have a reliable
-                        and stylish accessory on your wrist.
-                    </p>
-                    <p class="about-us-text">
-                        At our premium watch collection, we believe that a watch is more than just a timekeeping device
-                        – it's a statement piece
-                        that reflects your personality and style. So why settle for anything less than the best?
-                    </p>
-            <a href="#catalog" class="about-us-link">View catalog</a>
-        </div>
-        <div class="about-us-image">
-            <picture>
-                <source srcset="/Team-GoIT-project-13/assets/about-f752c7d8.webp 1x, /Team-GoIT-project-13/assets/about-2x-0fcb0e99.webp 2x" media="(min-width: 1280px)" />
-                <source srcset="/Team-GoIT-project-13/assets/about-tab-39928e2d.webp 1x, /Team-GoIT-project-13/assets/about-tab-2x-76abec22.webp 2x" media="(min-width: 768px)" />
-                <source srcset="/Team-GoIT-project-13/assets/about-mob-c510d27c.webp 1x, /Team-GoIT-project-13/assets/about-mob-2x-181f8911.webp 2x" media="(min-width: 375px)" />
-                <img src="/Team-GoIT-project-13/assets/about-f752c7d8.webp" alt="Watch">
-            </picture>
-        </div>
+  <div class="container">
+    <div class="about-us-content">
+      <h2 class="about-us-title title">About Us</h2>
+      <p class="about-us-text">
+        Welcome to our premium watch collection, where luxury and style meet
+        functionality and precision. Our selection of timepieces embodies the
+        very best in Swiss craftsmanship and engineering, ensuring that you'll
+        always have a reliable and stylish accessory on your wrist.
+      </p>
+      <p class="about-us-text">
+        At our premium watch collection, we believe that a watch is more than
+        just a timekeeping device – it's a statement piece that reflects your
+        personality and style. So why settle for anything less than the best?
+      </p>
+      <a href="#catalog" class="about-us-link">View catalog</a>
     </div>
+    <div class="about-us-image">
+      <picture>
+        <source
+          srcset="/Team-GoIT-project-13/assets/about-f752c7d8.webp 1x, /Team-GoIT-project-13/assets/about-2x-0fcb0e99.webp 2x"
+          media="(min-width: 1280px)"
+        />
+        <source
+          srcset="/Team-GoIT-project-13/assets/about-tab-39928e2d.webp 1x, /Team-GoIT-project-13/assets/about-tab-2x-76abec22.webp 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/Team-GoIT-project-13/assets/about-mob-c510d27c.webp 1x, /Team-GoIT-project-13/assets/about-mob-2x-181f8911.webp 2x"
+          media="(min-width: 375px)"
+        />
+        <img src="/Team-GoIT-project-13/assets/about-f752c7d8.webp" alt="Watch" />
+      </picture>
+    </div>
+  </div>
 </section>
+
       
   <section class="catalog section" id=catalog>
     <div class="container">
@@ -572,7 +581,56 @@
   </body>
 </html>
 
-      
+      <section class="section">
+    <div class="container">
+        <h2 class="modal-title">Contact Us</h2>
+        <div class="modal">
+            <form class="modal-form">
+                <p class="modal-text">Please use the form below to contact us. Enter your name, email, phone, and
+                    message
+                    and
+                    we'll
+                    get back to you shortly.</p>
+                <div class="modal-field-wrap">
+                    <label for="user-name" class="modal-label"></label>
+                    <div class="container-input">
+                        <input type="text" class="modal-input" name="user-name" id="user-name" placeholder="Name">
+                    </div>
+                </div>
+                <div class="modal-field-wrap">
+                    <label for="user-email" class="modal-label"></label>
+                    <div class="container-input">
+                        <input type="text" class="modal-input" name="user-email" id="user-email" placeholder="Email"
+                            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" />
+                    </div>
+                </div>
+                <div class="modal-field-wrap">
+                    <label for="user-phone" class="modal-label"></label>
+                    <div class="container-input">
+                        <input type="text" class="modal-input" name="user-phone" id="user-phone" placeholder="+380"
+                            pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$">
+                    </div>
+                </div>
+                <div class="checkbox-container">
+                    <label class="modal-label" for="user-comment"></label>
+                    <textarea class="modal-textarea" id="user-comment" name="user-comment "
+                        placeholder="Comment"></textarea>
+                    <div><button type="submit" class="btn-subscribe">Send</button></div>
+                </div>
+                </label>
+            </form>
+        </div>
+        <div class="img-contact-us"> <img src="../images/contact-mob.webp" alt="watch" width="335" height="512"></div>
+        <picture class="contactus-picture">
+            <source media="(min-width: 1280px)" srcset="/Team-GoIT-project-13/assets/contact-1bf31867.webp 1x, /Team-GoIT-project-13/assets/contact-2x-f1a3b1cc.webp 2x">
+            <source media="(min-width: 768px)" srcset="/Team-GoIT-project-13/assets/contact-tab-cbb786bf.webp , /Team-GoIT-project-13/assets/contact-tab-2x-de31ea8f.webp 2x">
+            <source media="(max-width: 767px)" srcset="
+                                                                    /images/contact-mob.webp 1x,
+                                                                    /images/contact-mob.webp-2x 2x">
+        </picture>
+
+    </div>
+</section>
       
     </main>
     <footer class="section" id="footer">
