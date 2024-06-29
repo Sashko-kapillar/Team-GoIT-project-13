@@ -29,7 +29,6 @@ padding: 0 20px;
     line-height: 1.28;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7); 
-    margin-bottom: 28px;
     
 }
 
@@ -38,9 +37,11 @@ padding: 0 20px;
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
+    margin-bottom: 28px;
+    margin-top: 28px;
 }
 
-.container-img-hero {
+.customer-hero {
     display: flex;
     flex-direction: row;
 }
@@ -51,7 +52,7 @@ padding: 0 20px;
     position: relative;
 }
 
-.customer-img-hero {
+.img-customer-hero {
     width: 100%;
     border-radius: 50%;
     border: 2px solid #fbfbfb;
@@ -90,21 +91,15 @@ padding: 0 20px;
     color: #3350e9;
 }
 
-.container-illustration-hero {
-    padding-top: 28px;
-    max-width: 320px;
-    margin: 0 auto;  
-} 
-
 .picture-illustration-hero {
     border-radius: 30px;
-    max-width: 320px;
-    max-height: 366px;
+      
 }
 
-.img-hero {
+.img-illustration-hero {
 width: 100%;
-height: auto; 
+display: block; 
+margin: 0 auto;
 }
 
 
@@ -129,17 +124,24 @@ height: auto;
         max-width: 480px;
         }
 
-        .container-container {
+        .information-hero {
             display: flex; 
             flex-direction: row; 
             align-items:  space-between;
             justify-content: start;
             gap: 11px;
+            margin-bottom: 40px;
+        }
+
+        .container-customer-hero { 
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: space-between;
         }
     
-        .container-two {
+        .customer-hero {
             display: flex; 
-            flex-direction: column;
+            flex-direction: row;
             align-items: flex-end;
             justify-content: space-between;
         
@@ -173,6 +175,16 @@ height: auto;
         line-height: 1;
         }
 
+        /*.picture-illustration-hero {
+            border-radius: 50px;
+            min-width: 704px;
+            margin: 0 auto;
+        }
+
+        .img-illustration-hero {
+            width: 100%;
+            height: auto;
+        }*/
     }
     
     @media screen and (min-width: 1280px) {
@@ -191,7 +203,7 @@ height: auto;
         line-height: 0.875;
     }
     
-    .container-container {
+    .information-hero {
         
         gap: 407px;
     }
@@ -213,5 +225,14 @@ height: auto;
         width: 60px;
          height: 60px;
     }
+
+    /*.picture-illustration-hero {
+        min-width: 1150px;  
+    }
+
+    .img-illustration-hero {
+        width: 100%;
+        height: auto;
+    }*/
     
     }
