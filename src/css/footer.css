@@ -217,10 +217,11 @@
 .footer-menu-list {
   flex-wrap: nowrap;
   flex-direction: row;
+  gap: 40px;
 }
 
 .footer-menu-list a:not(:last-child) {
-  gap: 19px;
+  gap: 40px;
 }
 .footer-menu-item {
   font-size: 14px;
@@ -255,12 +256,8 @@
 }
 
 .footer-bottom-paragraph {
-  font-weight: 500;
-  font-size: 10px;
-  line-height: 1.4;
-  letter-spacing: -0.02em;
-  color: rgba(251, 251, 251, 0.5);
-  opacity: 0.9;
+  font-size: 14px;
+  line-height: 1.28;
   justify-content: space-between;
   flex-direction: row;
 }
@@ -272,10 +269,6 @@
 }
 
 .footer-bottom-item {
-  font-weight: 500;
-  font-size: 10px;
-  line-height: 1.4;
-  letter-spacing: -0.02em;
-  text-align: right;
-  color: rgba(251, 251, 251, 0.5);
+  font-size: 14px;
+  line-height: 1.28;
 }
