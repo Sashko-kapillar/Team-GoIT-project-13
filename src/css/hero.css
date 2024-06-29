@@ -1,14 +1,12 @@
 .section-hero {
-padding: 60px 0;
+padding-top: 30px;
 }
 
-.container-hero {
+/*.container-hero {
 max-width: 375px;
 display: flex;
 flex-direction: column;
-padding: 0 20px;
-margin: 0 auto;
-}
+}*/
 
 .title-hero {
     font-weight: 600;
@@ -137,6 +135,7 @@ margin: 0 auto;
             flex-direction: column;
             align-items: flex-end;
             justify-content: space-between;
+            min-width: 136px;
         }
     
         .customer-hero {
@@ -181,7 +180,7 @@ margin: 0 auto;
 
     }
     
-    @media screen and (min-width: 1280px) {
+    /*---@media screen and (min-width: 1280px) {
       .section-hero {
     padding-top: 80px;
     padding-bottom: 100px;
@@ -220,4 +219,4 @@ margin: 0 auto;
          height: 60px;
     }
     
-    }
+    }---*/
