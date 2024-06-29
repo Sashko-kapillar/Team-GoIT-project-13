@@ -78,27 +78,24 @@ margin-right: auto;
 margin-left: auto;
 }
 
-.footer-menu-address {
+.footer-menu {
 display: flex;
 justify-content: space-between;
-margin: o auto;
-}
+margin: 0 auto;
 
-.footer-menu {
-margin-bottom: 24px;
+
 }
 
 .footer-nav-menu {
 width: 147px;
-height: 64px;
+
 display: flex;
-
-
+margin-bottom: 24px;
 }
 
 .footer-menu-list {
 display: flex;
-gap: 16px;
+gap: 8px 16px;
 flex-wrap: wrap;
 }
 
@@ -113,7 +110,6 @@ color: #fbfbfb;
 max-width: 83px;
 display: flex;
 align-items: baseline;
-margin-left: auto;
 }
 
 .footer-address-paragraph {
@@ -131,7 +127,7 @@ color: rgba(251, 251, 251, 0.1);
 
 .footer-bottom {
 max-width: 187px;
-padding-top: 24px;
+margin-top: 24px;
 }
 
 .footer-bottom-paragraph {
