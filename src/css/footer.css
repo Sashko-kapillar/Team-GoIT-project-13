@@ -1,7 +1,7 @@
 .footer-top {
   min-width: 280px;
   max-width: 375px;
-  padding: 40px 28px;
+  padding: 40px 28px 28px;
   margin: 0 auto;
   border-radius: 30px;
   background-color: #0c0c0c;
@@ -70,8 +70,6 @@
   text-align: center;
   color: #fbfbfb;
   margin-bottom: 92px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .footer-menu {
