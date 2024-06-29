@@ -1,5 +1,4 @@
 .modal-title {
-  font-family: var(--font-family);
   font-weight: 600;
   font-size: 32px;
   line-height: 100%;
@@ -9,65 +8,74 @@
 }
 
 .modal {
-  /* width: 335px;
-  height: 512px; */
   margin: 0 auto;
   border-radius: 30px;
   padding: 48px 28px;
-  width: 335px;
-  height: 512px;
   background-color: #f3f3f3;
 }
 
 .modal-text {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
 }
-.img-contactus {
+
+.img-contact-us {
   display: flex;
   justify-content: center;
 }
+
 .modal-form {
-  /* width: 335px; */
-  /* height: 1038px; */
   display: flex;
   flex-wrap: wrap;
   gap: 18px;
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
   letter-spacing: -0.02em;
-  color: rgba(12, 12, 12, 0.7);
-  background: var(--cards);
 }
+
 .modal-field-wrap {
   gap: 18px;
 }
 
 .modal-input {
-  border: 1px solid rgba(12, 12, 12, 0.15);
+  border: 1px solid rgba(12, 12, 12, 0.5);
   border-radius: 12px;
-  padding: 12px 226px 12px 14px;
-  width: 279px;
-  height: 42px;
+  padding: 12px 12px 14px;
+  min-width: 279px;
+  min-height: 42px;
+  background-color: transparent;
+  outline: transparent;
 }
 
-.modal-input :focus {
-  border-color: rgba(15, 110, 13, 0.7);
+.modal-input:focus,
+.modal-input:active {
+  border: 1px solid #3350e9;
+}
+
+.modal-input:not(:placeholder-shown) {
+  border: 1px solid #3350e9;
 }
 
 .modal-textarea {
-  border: 1px solid rgba(12, 12, 12, 0.15);
+  border: 1px solid rgba(12, 12, 12, 0.5);
   border-radius: 12px;
   padding: 12px 136px 54px 14px;
   width: 279px;
   height: 84px;
   margin-bottom: 28px;
+  background-color: transparent;
+  outline: transparent;
+}
+.modal-textarea:focus,
+.modal-textarea:active {
+  border: 1px solid #3350e9;
+}
+.modal-textarea:not(:placeholder-shown) {
+  border: 1px solid #3350e9;
 }
 
 .btn-subscribe {
@@ -75,19 +83,21 @@
   height: 42px;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 129%;
   text-align: center;
   color: #fbfbfb;
   border: none;
   border-radius: 16px;
   background-color: #3350e9;
-  padding: 15px 38px;
   display: inline-block;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 0 auto;
 }
+.btn-subscribe:focus,
+.btn-subscribe:active {
+  background-color: #1f3cd4;
+}
 
-@media screen and (min-width: 320px) {
+/* @media screen and (min-width: 320px) {
   .container {
     width: 100%;
   }
@@ -98,4 +108,4 @@
     font-size: 1.2rem;
     padding: 1.5rem;
   }
-}
+} */
