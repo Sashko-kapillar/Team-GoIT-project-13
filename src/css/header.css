@@ -4,6 +4,7 @@
   justify-content: space-between;
   height: 73px;
   margin: 0;
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);;
 }
 
 @media screen and (min-width: 768px) {
@@ -29,7 +30,7 @@
   display: flex;
   font-weight: 500;
   font-size: 16px;
-  letter-spacing: -0.02em;  
+  letter-spacing: -0.02em;
 }
 
 @media screen and (min-width: 768px) {
@@ -57,7 +58,7 @@
 .current {
 } */
 
- .social-container {
+.social-container {
   display: none;
 }
 
@@ -78,15 +79,7 @@
 .social-icon-position {
 } */
 
-.stroke {
-width: 100%;
-height: 1px;
-background-color: rgba(12, 12, 12, 0.1);
-  /* border: 2px solid rgba(12, 12, 12, 0.1); */
-}
-
-
- /* .section {
+/* .section {
   max-width: 768px;
 } */
 
@@ -229,7 +222,7 @@ background-color: rgba(12, 12, 12, 0.1);
 
 .vector-btn::before,
 .vector-btn::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 100;
 }
