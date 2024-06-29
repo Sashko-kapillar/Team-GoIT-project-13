@@ -7,6 +7,8 @@
      }
      .footer-container {
          padding: 40px 40px 28px 40px;
+      
+  
      }
 
      .footer-top {
@@ -24,10 +26,13 @@
      }
 
      .footer-social-list {}
-
-     .footer-social-link {
+     .footer-social-item {
          width: 36px;
          height: 36px;
+     }
+
+     .footer-social-link {
+        
      }
 
      .footer-social-icon {}
@@ -47,44 +52,51 @@
          font-size: 28px;
          line-height: 1.14;
          margin-bottom: 100px;
-         margin-right: auto;
-         margin-left: auto;
-         display: block;
-         width: 524px;
+         max-width: 524px;
      }
 
      .footer-menu {
          margin-bottom: 28px;
+         justify-content: space-between;
 
      }
 
      .footer-nav-menu {
-         width: 400px;
-         height: 18px;
+     
+         margin: 0 auto;
+         justify-content: space-between;
+   
 
      }
 
      .footer-menu-list {
          flex-wrap: nowrap;
          gap: 19px;
+         margin-right: 62px;
+         flex-direction: row;
      }
 
      .footer-menu-item {
          font-size: 14px;
          line-height: 1.28;
      }
+.footer-social-icon {
 
+}
      .footer-address {
          max-width: 162px;
          max-height: 36px;
+         margin-left: auto;
+         top:auto
 
+         
      }
 
      .footer-address-paragraph {
          font-size: 14px;
          line-height: 1.28;
          display: flex;
-         align-items: baseline;
+        
          flex-wrap: nowrap;
      }
 
@@ -95,8 +107,11 @@
      }
 
      .footer-bottom {
-         max-width: 187px;
-         padding-top: 24px;
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-between;
+
      }
 
      .footer-bottom-paragraph {
@@ -106,13 +121,15 @@
          letter-spacing: -0.02em;
          color: rgba(251, 251, 251, 0.5);
          opacity: 0.9;
-         margin-bottom: 8px;
+         justify-content: space-between;
      }
 
      .footer-bottom-list {
          display: flex;
          flex-direction: row;
+
          gap: 20px;
+     
      }
 
      .footer-bottom-item {
