@@ -23,8 +23,7 @@
 }
 
 .img-contact-us {
-  display: flex;
-  justify-content: center;
+  border-radius: 30px;
 }
 
 .modal-form {
@@ -105,6 +104,10 @@
   background-color: #1f3cd4;
 }
 
+/* .img-contact-us {
+  border-radius: 30px;
+} */
+
 @media screen and (min-width: 375px) {
   .modal-input {
     width: 279px;
@@ -149,5 +152,11 @@
     padding: 16px 18px;
     font-size: 16px;
     line-height: 125%;
+  }
+  /* .img-contact-us {
+    max-width: 100%;
+  } */
+  .contactus-picture {
+    max-width: 100%;
   }
 }
