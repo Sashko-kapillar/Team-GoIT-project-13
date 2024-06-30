@@ -1,0 +1,80 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.advertis-title {
+  text-align: center;
+}
+
+.button-anchor:hover {
+  background: #fbfbfb;
+  color: #0c0c0c;
+}
+
+.advertis-anchor:focus {
+  background: #fbfbfb;
+  color: #0c0c0c;
+}
+
+.button-anchor {
+  width: 160px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+  padding: 60px 28px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  background-image: url('../images/advertisement_x1-mob.png'); /*Заміна на коректний шлях до зображення*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.advertis-subtitle,
+.text-gr {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 28px;
+}
+
+.text-gr {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.btn-text {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  text-wrap: nowrap;
+}
