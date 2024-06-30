@@ -1,12 +1,12 @@
 .section-hero {
-padding: 60px 0;
+padding-top: 60px;
+padding-bottom: 60px;
 }
 
 .container-hero {
 max-width: 375px;
 display: flex;
 flex-direction: column;
-padding: 0 20px;
 }
 
 .title-hero {
@@ -16,7 +16,7 @@ padding: 0 20px;
     letter-spacing: -0.02em;
     color: #0c0c0c;
     margin-bottom: 20px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    max-width: 335px;
 }
 
 .title-color-hero {
@@ -29,7 +29,7 @@ padding: 0 20px;
     line-height: 1.28;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7); 
-    margin-bottom: 28px;
+    
     
 }
 
@@ -38,9 +38,11 @@ padding: 0 20px;
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
+    margin-bottom: 28px;
+    margin-top: 28px;
 }
 
-.container-img-hero {
+.customer-hero {
     display: flex;
     flex-direction: row;
 }
@@ -49,28 +51,35 @@ padding: 0 20px;
     width: 44px;
     height: 44px;
     position: relative;
+    
 }
 
-.customer-img-hero {
+.img-customer-hero {
     width: 100%;
     border-radius: 50%;
-    border: 2px solid #fbfbfb;
     overflow: hidden;
 }
 
 .ellipse-one {
     position: absolute;
     top: 0;
-    right: -12px;
+    right: -24px;
     z-index: -1; 
     width: 44px;
      height: 44px; 
 }
 
-.ellipse-three {
+.ellipse-two {
     position: absolute;
     top: 0;
-    right: 6px;
+    right: -12px;
+    z-index: 0; 
+    width: 44px;
+     height: 44px;  
+}
+
+.ellipse-three {
+    position: absolute;
     z-index: 1; 
     width: 44px;
      height: 44px;
@@ -84,27 +93,19 @@ padding: 0 20px;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #0c0c0c;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .scroll-hero:focus, .scroll-hero:hover {
     color: #3350e9;
 }
 
-.container-illustration-hero {
-    padding-top: 28px;
-    max-width: 320px;
-    margin: 0 auto;  
-} 
-
-.picture-illustration-hero {
-    border-radius: 30px;
-    max-width: 320px;
-    max-height: 366px;
-}
-
-.img-hero {
+.img-illustration-hero {
 width: 100%;
-height: auto; 
+border-radius: 30px; 
+overflow: hidden;   
+margin: 0 auto;
 }
 
 
@@ -121,6 +122,7 @@ height: auto;
     .title-hero {
         font-size: 70px;
         line-height: 0.86;
+        min-width: 557px;
     }
     
     .text-hero {
@@ -129,20 +131,29 @@ height: auto;
         max-width: 480px;
         }
 
-        .container-container {
+        .container-information-hero {
             display: flex; 
             flex-direction: row; 
             align-items:  space-between;
-            justify-content: start;
+            justify-content: baseline;
             gap: 11px;
+            margin-bottom: 40px;
         }
-    
-        .container-two {
-            display: flex; 
+
+        .container-customer-hero { 
             flex-direction: column;
             align-items: flex-end;
             justify-content: space-between;
-        
+            min-width: 136px;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+    
+        .customer-hero {
+            display: flex; 
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: space-between;
         }
 
         .picture-customer-hero {
@@ -153,16 +164,25 @@ height: auto;
         .ellipse-one {
             position: absolute;
             top: 0;
-            right: -12px;
+            right: -28px;
             z-index: -1; 
             width: 56px;
              height: 56px; 
+        }
+
+        .ellipse-two {
+            position: absolute;
+            top: 0;
+            right: -14px;
+            z-index: 0; 
+            width: 56px;
+             height: 56px;    
         }
         
         .ellipse-three {
             position: absolute;
             top: 0;
-            right: 6px;
+            right: 0;
             z-index: 1; 
             width: 56px;
              height: 56px;
@@ -171,6 +191,10 @@ height: auto;
         .scroll-hero {
         font-size: 20px;
         line-height: 1;
+        }
+
+        .img-illustration-hero {
+            border-radius: 50px;
         }
 
     }
@@ -189,29 +213,47 @@ height: auto;
     .title-hero {
         font-size: 72px;
         line-height: 0.875;
+        min-width: 597px;
     }
     
-    .container-container {
-        
+    .container-information-hero {
         gap: 407px;
     }
 
     .picture-customer-hero {
         width: 60px;
         height: 60px;
+        padding: 0;
     }
 
     .ellipse-one {
-        
-        right: -12px; 
+        position: absolute;
+        right: -32px; 
         width: 60px;
-         height: 60px; 
+         height: 60px;   
     }
-    
-    .ellipse-three {
-        right: 6px;
+
+    .ellipse-two {
+        position: absolute;
+        right: -16px; 
         width: 60px;
          height: 60px;
     }
-    
+
+    .ellipse-three {
+       position: absolute;
+       width: 60px;
+       height: 60px;
+    }
+
+    .scroll-hero {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #0c0c0c;
+    }
+
     }
