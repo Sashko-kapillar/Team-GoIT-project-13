@@ -40,18 +40,18 @@
 }
 
 .footer-social-icon {
-  fill: rgb(211, 211, 211);
+  fill: #fbfbfb;
   opacity: 0.8;
   width: 18px;
   height: 18px;
 }
 
 .footer-social-item:hover .footer-social-link .footer-social-icon {
-  fill: #ffffff;
+  opacity: 1;
 }
 
 .footer-social-item:focus .footer-social-link .footer-social-icon {
-  fill: #ffffff;
+  opacity: 1;
 }
 
 .footer-contact {
