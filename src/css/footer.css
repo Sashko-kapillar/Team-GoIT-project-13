@@ -304,8 +304,9 @@
 
   .footer-title {
     max-width: 523px;
-    margin-right: 147px;
+    margin: 0;
     margin-bottom: 126px;
+    margin-right: 147px;
   }
 
   .footer-menu-list {
