@@ -15,24 +15,6 @@
   text-align: center;
 }
 
-/* .advertis-anchor {
-  width: 160px;
-  height: 48px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.29;
-  text-align: center;
-  color: #fbfbfb;
-  border: 1px solid rgba(251, 251, 251, 0.15);
-  border-radius: 16px;
-  position: relative;
-  z-index: 2;
-  transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 15px 43px 15px 44px;
-  white-space: nowrap;
-  display: flex;
-} */
-
 .button-anchor:hover {
   background: #fbfbfb;
   color: #0c0c0c;
@@ -53,8 +35,6 @@
   color: #fbfbfb;
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
-  position: relative;
-  z-index: 2;
   transition: background-color 350ms cubic-bezier(0.4, 0, 0.2, 1);
   white-space: nowrap;
   display: flex;
@@ -77,7 +57,8 @@
   width: 100%;
 }
 
-.advertis-subtitle {
+.advertis-subtitle,
+.text-gr {
   font-weight: 600;
   font-size: 24px;
   line-height: 1;
@@ -87,7 +68,7 @@
 }
 
 .text-gr {
-  color: grey;
+  color: rgba(251, 251, 251, 0.5);
 }
 
 .btn-text {
