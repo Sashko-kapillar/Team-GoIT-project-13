@@ -37,6 +37,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+
+.footer-social-link {
+  display: contents;
 }
 
 .footer-social-icon {
@@ -84,6 +89,7 @@
 .footer-menu {
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 .footer-nav-menu {
@@ -116,6 +122,7 @@
   font-size: 12px;
   line-height: 1.33;
   color: #fbfbfb;
+  font-style: normal;
 }
 
 .footer-border {
@@ -154,7 +161,6 @@
   color: rgba(251, 251, 251, 0.5);
 }
 
-/* Footer*/
 @media screen and (min-width: 768px) {
   .footer-top {
     display: flex;
@@ -201,6 +207,7 @@
   }
 
   .footer-menu {
+    margin: 0;
     margin-bottom: 28px;
   }
 
@@ -273,5 +280,55 @@
     letter-spacing: -0.02em;
     text-align: right;
     color: rgba(251, 251, 251, 0.5);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footer-top {
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: none;
+  }
+
+  .footer-box-tab {
+    flex-wrap: nowrap;
+  }
+
+  .footer-logo-social {
+    justify-content: flex-start;
+    flex-grow: 1;
+  }
+
+  .footer-contact {
+    order: 1;
+    flex-shrink: 0;
+  }
+
+  .footer-title {
+    max-width: 523px;
+    margin: 0;
+    margin-bottom: 126px;
+    margin-right: 147px;
+  }
+
+  .footer-menu-list {
+    gap: 40px;
+  }
+
+  .footer-menu-list a:not(:last-child) {
+    gap: 40px;
+  }
+
+  .footer-bottom {
+    margin-top: 28px;
+  }
+
+  .footer-bottom-paragraph {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+
+  .footer-bottom-item {
+    font-size: 14px;
+    line-height: 1.28;
   }
 }
