@@ -101,7 +101,7 @@
   padding: 12px;
 }
 .btn-subscribe:focus,
-.btn-subscribe:active {
+.btn-subscribe:hover {
   background-color: #1f3cd4;
 }
 
@@ -120,7 +120,6 @@
 
 @media screen and (min-width: 768px) {
   .modal {
-    width: 704px;
     padding: 50px 122px;
   }
 
@@ -164,13 +163,8 @@
 
   .modal {
     padding: 50px 60px;
-  }
-
-  .modal-title {
-    margin-bottom: 40px;
-  }
-  .img-contact-us {
-    width: 100%;
-    height: auto;
+    width: 580px;
+    height: 556px;
+    margin-bottom: 0;
   }
 }
