@@ -57,6 +57,11 @@ img {
   letter-spacing: -0.02em;
 }
 
+.section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 @media screen and (min-width: 375px) {
   .container {
     width: 375px;
@@ -74,6 +79,11 @@ img {
     font-size: 48px;
     line-height: 0.92;
   }
+
+  .section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -81,9 +91,9 @@ img {
     width: 1280px;
     padding: 0 65px;
   }
-}
 
-.section {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
