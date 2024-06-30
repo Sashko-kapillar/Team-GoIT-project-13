@@ -86,8 +86,8 @@
 }
 
 .btn-subscribe {
-  width: 134px;
-  height: 42px;
+  min-width: 134px;
+  min-height: 42px;
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
@@ -98,15 +98,16 @@
   background-color: #3350e9;
   display: inline-block;
   margin: 0 auto;
+  padding: 12px;
 }
 .btn-subscribe:focus,
 .btn-subscribe:active {
   background-color: #1f3cd4;
 }
 
-/* .img-contact-us {
+.img-contact-us {
   border-radius: 30px;
-} */
+}
 
 @media screen and (min-width: 375px) {
   .modal-input {
@@ -120,24 +121,17 @@
 @media screen and (min-width: 768px) {
   .modal {
     width: 704px;
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 129%;
-    letter-spacing: -0.02em;
     padding: 50px 122px;
   }
+
   .modal-title {
     margin-bottom: 40px;
   }
+
   .modal-text {
     font-size: 16px;
     line-height: 125%;
-  }
-  .modal-form {
-    /* padding: 50px 90px; */
+    margin-bottom: 32px;
   }
 
   .modal-textarea {
@@ -147,10 +141,36 @@
     line-height: 125%;
     margin-bottom: 32px;
   }
+
   .modal-input {
     width: 460px;
     padding: 16px 18px;
     font-size: 16px;
     line-height: 125%;
+  }
+
+  .btn-subscribe {
+    padding: 17px;
+    min-width: 160px;
+    min-height: 52px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contactus-wrap {
+    display: flex;
+    gap: 40px;
+  }
+
+  .modal {
+    padding: 50px 60px;
+  }
+
+  .modal-title {
+    margin-bottom: 40px;
+  }
+  .img-contact-us {
+    width: 100%;
+    height: auto;
   }
 }
