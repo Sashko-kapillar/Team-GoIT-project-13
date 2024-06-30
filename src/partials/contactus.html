@@ -1,13 +1,13 @@
 <section class="section">
     <div class="container">
-        <h2 class="modal-title">Contact Us</h2>
+        <h2 class="modal-title" id="contactus">Contact Us</h2>
         <div class="modal">
+            <p class="modal-text">Please use the form below to contact us. Enter your name, email, phone, and
+                message
+                and
+                we'll
+                get back to you shortly.</p>
             <form class="modal-form">
-                <p class="modal-text">Please use the form below to contact us. Enter your name, email, phone, and
-                    message
-                    and
-                    we'll
-                    get back to you shortly.</p>
                 <div class="modal-field-wrap">
                     <label for="user-name" class="modal-label"></label>
                     <div class="container-input">
@@ -37,17 +37,19 @@
                 </label>
             </form>
         </div>
-        <div class="img-contact-us"> <img src="../images/contact-mob.webp" alt="watch" width="335" height="512"></div>
-        <picture class="contactus-picture">
-            <source media="(min-width: 1280px)" srcset="
-                                                                    /images/contact.webp 1x,
-                                                                    /images/contact-2x.webp 2x">
-            <source media="(min-width: 768px)" srcset="
-                                                                    /images/contact-tab.webp,
-                                                                    /images/contact-tab-2x.webp 2x">
-            <source media="(max-width: 767px)" srcset="
-                                                                    /images/contact-mob.webp 1x,
-                                                                    /images/contact-mob.webp-2x 2x">
+        <div>
+            <picture class="contactus-picture">
+                <source media="(min-width: 1280px)" srcset="
+                                                                    /images/contactus-dec.jpg 1x,
+                                                                    /images/contactus-dec2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="
+                                                                    /images/contactus-tab.jpg 1x,
+                                                                    /images/contactus-tab2x.jpg 2x">
+                <source media="(min-width: 320px)" srcset="
+                                                                    /images/contactusmob1x.jpg 1x,
+                                                                    /images/contactusmob2x.jpg 2x">
+                <img class="img-contact-us" src="/images/contactus-dec.jpg" alt="watch">
+        </div>
         </picture>
 
     </div>
