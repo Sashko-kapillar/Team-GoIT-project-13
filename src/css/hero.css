@@ -1,5 +1,6 @@
 .section-hero {
-padding-top: 30px;
+padding-top: 60px;
+padding-bottom: 60px;
 }
 
 .container-hero {
@@ -15,7 +16,6 @@ flex-direction: column;
     letter-spacing: -0.02em;
     color: #0c0c0c;
     margin-bottom: 20px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     max-width: 335px;
 }
 
@@ -57,14 +57,13 @@ flex-direction: column;
 .img-customer-hero {
     width: 100%;
     border-radius: 50%;
-    border: 2px solid #fbfbfb;
     overflow: hidden;
 }
 
 .ellipse-one {
     position: absolute;
     top: 0;
-    right: -25px;
+    right: -24px;
     z-index: -1; 
     width: 44px;
      height: 44px; 
@@ -73,7 +72,7 @@ flex-direction: column;
 .ellipse-two {
     position: absolute;
     top: 0;
-    right: -13px;
+    right: -12px;
     z-index: 0; 
     width: 44px;
      height: 44px;  
@@ -94,6 +93,8 @@ flex-direction: column;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #0c0c0c;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .scroll-hero:focus, .scroll-hero:hover {
@@ -227,7 +228,7 @@ margin: 0 auto;
 
     .ellipse-one {
         position: absolute;
-        right: -30px; 
+        right: -32px; 
         width: 60px;
          height: 60px;   
     }
