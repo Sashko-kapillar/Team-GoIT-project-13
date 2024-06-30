@@ -164,7 +164,7 @@ margin: 0 auto;
         .ellipse-one {
             position: absolute;
             top: 0;
-            right: -28px;
+            right: -32px;
             z-index: -1; 
             width: 56px;
              height: 56px; 
@@ -173,7 +173,7 @@ margin: 0 auto;
         .ellipse-two {
             position: absolute;
             top: 0;
-            right: -14px;
+            right: -17px;
             z-index: 0; 
             width: 56px;
              height: 56px;    
@@ -228,14 +228,14 @@ margin: 0 auto;
 
     .ellipse-one {
         position: absolute;
-        right: -32px; 
+        right: -34px; 
         width: 60px;
          height: 60px;   
     }
 
     .ellipse-two {
         position: absolute;
-        right: -16px; 
+        right: -18px; 
         width: 60px;
          height: 60px;
     }
