@@ -246,9 +246,13 @@ margin: 0 auto;
     }
 
     .scroll-hero {
-text-decoration: underline;
-text-decoration-skip-ink: none;
-color: #0c0c0c;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #0c0c0c;
     }
 
     }
