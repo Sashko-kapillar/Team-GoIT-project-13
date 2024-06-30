@@ -33,7 +33,7 @@
   display: flex;
 } */
 
-/* .advertis-anchor:hover {
+.button-anchor:hover {
   background: #fbfbfb;
   color: #0c0c0c;
 }
@@ -41,7 +41,8 @@
 .advertis-anchor:focus {
   background: #fbfbfb;
   color: #0c0c0c;
-} */
+}
+
 .button-anchor {
   width: 160px;
   height: 48px;
