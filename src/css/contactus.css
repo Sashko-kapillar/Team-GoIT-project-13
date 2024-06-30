@@ -3,8 +3,7 @@
   font-size: 32px;
   line-height: 100%;
   letter-spacing: -0.02em;
-  color: var(--main);
-  padding-left: 20px;
+  margin-bottom: 24px;
 }
 
 .modal {
@@ -20,6 +19,7 @@
   line-height: 129%;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
+  margin-bottom: 22px;
 }
 
 .img-contact-us {
@@ -44,10 +44,16 @@
 .modal-input {
   border: 1px solid rgba(12, 12, 12, 0.5);
   border-radius: 12px;
-  min-width: 279px;
   min-height: 42px;
   background-color: transparent;
   outline: transparent;
+  padding: 12px 14px;
+  width: 224px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
 }
 
 .modal-input:focus,
@@ -57,19 +63,21 @@
 
 .modal-input:not(:placeholder-shown) {
   border: 1px solid #3350e9;
-  padding: 16px;
 }
 
 .modal-textarea {
-  border: 1px solid rgba(12, 12, 12, 0.5);
   border-radius: 12px;
-  padding: 12px 136px 54px 14px;
-  width: 279px;
+  padding: 12px 14px;
   height: 84px;
   margin-bottom: 28px;
   background-color: transparent;
   outline: transparent;
+  width: 224px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
 }
+
 .modal-textarea:focus,
 .modal-textarea:active {
   border: 1px solid #3350e9;
@@ -97,6 +105,15 @@
   background-color: #1f3cd4;
 }
 
+@media screen and (min-width: 375px) {
+  .modal-input {
+    width: 279px;
+  }
+  .modal-textarea {
+    width: 279px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .modal {
     width: 704px;
@@ -107,24 +124,30 @@
     font-size: 14px;
     line-height: 129%;
     letter-spacing: -0.02em;
+    padding: 50px 122px;
   }
   .modal-title {
-    padding-bottom: 40px;
+    margin-bottom: 40px;
   }
   .modal-text {
-    text-align: left;
+    font-size: 16px;
+    line-height: 125%;
   }
   .modal-form {
-    padding: 50px 90px;
+    /* padding: 50px 90px; */
   }
 
   .modal-textarea {
     width: 460px;
     height: 90px;
+    font-size: 16px;
+    line-height: 125%;
+    margin-bottom: 32px;
   }
   .modal-input {
     width: 460px;
-    height: 52px;
-    padding: 16px;
+    padding: 16px 18px;
+    font-size: 16px;
+    line-height: 125%;
   }
 }
