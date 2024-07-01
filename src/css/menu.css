@@ -59,9 +59,15 @@
   width: 200px;
   min-height: 100vh;
   z-index: 999;
-  /* opacity: 0;
+  opacity: 0;
   visibility: hidden;
-  pointer-events: none;*/
+  pointer-events: none;
+}
+
+.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 @media screen and (min-width: 768px) {
