@@ -1,53 +1,48 @@
 <!--    Button close     -->
 
-<div class="mobilebox mobi-container">
+<div class="mobilebox is-open" data-modal>
   <label for="toggle-close" class="vector-close-label"></label>
-  <div class="btn-close-container is-open" data-modal>
+  <div class="btn-close-container">
     <input
       type="checkbox"
       class="vector-input-close"
       name="btnClose"
       id="toggle-close"
-      data-modal-close
     />
-    <span class="vector-close-btn" data-modal-close></span>
+    <span class="vector-close-btn"></span>
   </div>
 
   <!-- End button close -->
 
   <!-- =======  Mobile menu   =========== -->
 
-  <div class="mobi-menu-container">
+  <div class="mobi-menu-container" data-modal>
     <nav class="mobi-menu-nav">
       <ul class="mobi-menu-list">
         <li class="mobi-menu-item">
-          <a href="#home" class="mobi-menu-link" area-label="Home ">Home </a>
+          <a href="#home" class="mobi-menu-link" title="Home">Home </a>
           <span class="mobi-menu-circle"></span>
         </li>
         <li class="mobi-menu-item">
-          <a href="#aboutus" class="mobi-menu-link" area-label="About us"
+          <a href="#aboutus" class="mobi-menu-link" title="Aboutus"
             >About us
           </a>
           <span class="mobi-menu-circle"></span>
         </li>
         <li class="mobi-menu-item">
-          <a href="#catalog" class="mobi-menu-link" area-label="Catalog"
-            >Catalog
-          </a>
+          <a href="#catalog" class="mobi-menu-link" title="Catalog">Catalog </a>
           <span class="mobi-menu-circle"></span>
         </li>
         <li class="mobi-menu-item">
-          <a href="#sale" class="mobi-menu-link" area-label="Sale">Sale </a>
+          <a href="#sale" class="mobi-menu-link" title="Sale">Sale </a>
           <span class="mobi-menu-circle"></span>
         </li>
         <li class="mobi-menu-item">
-          <a href="#reviews" class="mobi-menu-link" area-label="Reviews"
-            >Reviews
-          </a>
+          <a href="#reviews" class="mobi-menu-link" title="Reviews">Reviews </a>
           <span class="mobi-menu-circle"></span>
         </li>
         <li class="mobi-menu-item">
-          <a href="#contactus" class="mobi-menu-link" area-label="Contact Us"
+          <a href="#contactus" class="mobi-menu-link" title="Contact Us"
             >Contact Us
           </a>
           <span class="mobi-menu-circle"></span>
@@ -58,21 +53,25 @@
   <div class="mobi-social-wrap">
     <ul class="mobi-social-list">
       <li class="mobi-social-item">
-        <a href="#" aria-label="go to facebook" class="mobi-icon-link">
+        <a href="#" title="go to facebook" class="mobi-icon-link">
           <svg class="mobi-icon" width="18" height="18">
             <use href="./images/icons.svg#icon-facebook"></use>
           </svg>
         </a>
       </li>
       <li class="mobi-social-item">
-        <a href="#" aria-label="instagram" class="mobi-icon-link">
+        <a
+          href="https://www.instagram.com/goitclub/"
+          title="instagram"
+          class="mobi-icon-link"
+        >
           <svg class="mobi-icon" width="18" height="18">
             <use href="./images/icons.svg#icon-instagram"></use>
           </svg>
         </a>
       </li>
       <li class="mobi-social-item">
-        <a href="#" aria-label="you-tube" class="mobi-icon-link">
+        <a href="#" title="you-tube" class="mobi-icon-link">
           <svg class="mobi-icon" width="18" height="18">
             <use
               href="./images/icons.svg#icon-youtube"
