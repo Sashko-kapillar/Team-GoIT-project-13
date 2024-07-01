@@ -23,7 +23,11 @@
 }
 
 .catalog-title {
-  margin-top: 60px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
   margin-bottom: 24px;
 }
 .catalog-picture {
@@ -73,6 +77,9 @@
     gap: 32px 16px;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  .catalog-title {
+    margin-bottom: 40px;
   }
   .catalog-subtitle {
     text-overflow: ellipsis;
