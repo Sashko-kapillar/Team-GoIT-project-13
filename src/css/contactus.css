@@ -1,17 +1,12 @@
 .modal-title {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 100%;
-  letter-spacing: -0.02em;
-  color: var(--main);
-  padding-left: 20px;
+  margin-bottom: 24px;
 }
 
 .modal {
-  margin: 0 auto;
   border-radius: 30px;
   padding: 48px 28px;
   background-color: #f3f3f3;
+  margin-bottom: 20px;
 }
 
 .modal-text {
@@ -20,11 +15,11 @@
   line-height: 129%;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
+  margin-bottom: 22px;
 }
 
 .img-contact-us {
-  display: flex;
-  justify-content: center;
+  border-radius: 30px;
 }
 
 .modal-form {
@@ -44,11 +39,16 @@
 .modal-input {
   border: 1px solid rgba(12, 12, 12, 0.5);
   border-radius: 12px;
-  padding: 12px 12px 14px;
-  min-width: 279px;
   min-height: 42px;
   background-color: transparent;
   outline: transparent;
+  padding: 12px 14px;
+  width: 224px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
 }
 
 .modal-input:focus,
@@ -61,26 +61,30 @@
 }
 
 .modal-textarea {
-  border: 1px solid rgba(12, 12, 12, 0.5);
   border-radius: 12px;
-  padding: 12px 136px 54px 14px;
-  width: 279px;
+  padding: 12px 14px;
   height: 84px;
   margin-bottom: 28px;
   background-color: transparent;
   outline: transparent;
+  width: 224px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
 }
+
 .modal-textarea:focus,
 .modal-textarea:active {
   border: 1px solid #3350e9;
 }
+
 .modal-textarea:not(:placeholder-shown) {
   border: 1px solid #3350e9;
 }
 
 .btn-subscribe {
-  width: 134px;
-  height: 42px;
+  min-width: 134px;
+  min-height: 42px;
   font-weight: 500;
   font-size: 14px;
   line-height: 129%;
@@ -91,21 +95,75 @@
   background-color: #3350e9;
   display: inline-block;
   margin: 0 auto;
+  padding: 12px;
 }
+
 .btn-subscribe:focus,
-.btn-subscribe:active {
+.btn-subscribe:hover {
   background-color: #1f3cd4;
 }
 
-/* @media screen and (min-width: 320px) {
-  .container {
-    width: 100%;
+.img-contact-us {
+  border-radius: 30px;
+}
+
+@media screen and (min-width: 375px) {
+  .modal-input {
+    width: 279px;
+  }
+
+  .modal-textarea {
+    width: 279px;
   }
 }
-@media screen and (min-width: 375px) {
-  .container {
-    max-width: 80%;
-    font-size: 1.2rem;
-    padding: 1.5rem;
+
+@media screen and (min-width: 768px) {
+  .modal {
+    padding: 50px 122px;
   }
-} */
+
+  .modal-title {
+    margin-bottom: 40px;
+  }
+
+  .modal-text {
+    font-size: 16px;
+    line-height: 125%;
+    margin-bottom: 32px;
+  }
+
+  .modal-textarea {
+    width: 460px;
+    height: 90px;
+    font-size: 16px;
+    line-height: 125%;
+    margin-bottom: 32px;
+  }
+
+  .modal-input {
+    width: 460px;
+    padding: 16px 18px;
+    font-size: 16px;
+    line-height: 125%;
+  }
+
+  .btn-subscribe {
+    padding: 17px;
+    min-width: 160px;
+    min-height: 52px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .contactus-wrap {
+    display: flex;
+    gap: 40px;
+  }
+
+  .modal {
+    padding: 50px 60px;
+    width: 580px;
+    height: 556px;
+    margin-bottom: 0;
+  }
+}
