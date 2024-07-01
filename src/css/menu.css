@@ -59,9 +59,9 @@
   width: 200px;
   min-height: 100vh;
   z-index: 999;
-  opacity: 0;
+  /* opacity: 0;
   visibility: hidden;
-  pointer-events: none;
+  pointer-events: none;*/
 }
 
 .mobi-menu-container {
@@ -143,6 +143,10 @@
 .mobi-social-item:focus {
   border: 2px solid rgba(180, 180, 180, 0.781);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobi-icon-link {
+  display: flex;
 }
 
 .mobi-icon {
