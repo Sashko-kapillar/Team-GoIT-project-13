@@ -55,6 +55,9 @@
   padding: 4px;
 }
 
+.header-link {
+}
+
 .header-menu-circle {
   display: flex;
   width: 8px;
@@ -63,6 +66,7 @@
   background-color: #3350e9;
   margin: 0 auto;
   /* opacity: 0; */
+  z-index: 0;
 }
 
 .social-container {
