@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #fbfbfb;
   font-family: 'Gilroy', sans-serif;
@@ -18,10 +22,6 @@ h5,
 h6,
 p {
   margin: 0;
-}
-
-p:last-child {
-  margin-bottom: 0;
 }
 
 ul {

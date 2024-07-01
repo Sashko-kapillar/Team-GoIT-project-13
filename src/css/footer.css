@@ -37,21 +37,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+
+.footer-social-link {
+  display: contents;
 }
 
 .footer-social-icon {
-  fill: rgb(211, 211, 211);
+  fill: #fbfbfb;
   opacity: 0.8;
   width: 18px;
   height: 18px;
 }
 
 .footer-social-item:hover .footer-social-link .footer-social-icon {
-  fill: #ffffff;
+  opacity: 1;
 }
 
 .footer-social-item:focus .footer-social-link .footer-social-icon {
-  fill: #ffffff;
+  opacity: 1;
 }
 
 .footer-contact {
@@ -69,6 +74,15 @@
   border-radius: 16px;
   padding: 14px 20px;
   text-align: center;
+  opacity: 0.8;
+}
+
+.footer-contact-link:hover {
+  opacity: 1;
+}
+
+.footer-contact-link:focus {
+  opacity: 1;
 }
 
 .footer-title {
@@ -84,6 +98,7 @@
 .footer-menu {
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
 }
 
 .footer-nav-menu {
@@ -103,6 +118,15 @@
   font-size: 12px;
   line-height: 1.33;
   color: #fbfbfb;
+  opacity: 0.8;
+}
+
+.footer-menu-item:hover {
+  opacity: 1;
+}
+
+.footer-menu-item:focus {
+  opacity: 1;
 }
 
 .footer-address {
@@ -116,8 +140,16 @@
   font-size: 12px;
   line-height: 1.33;
   color: #fbfbfb;
+  font-style: normal;
+  opacity: 0.8;
+}
+.footer-address-paragraph:hover {
+  opacity: 1;
 }
 
+.footer-address-paragraph:focus {
+  opacity: 1;
+}
 .footer-border {
   border: 1px solid;
   width: 100%;
@@ -154,7 +186,6 @@
   color: rgba(251, 251, 251, 0.5);
 }
 
-/* Footer*/
 @media screen and (min-width: 768px) {
   .footer-top {
     display: flex;
@@ -201,6 +232,7 @@
   }
 
   .footer-menu {
+    margin: 0;
     margin-bottom: 28px;
   }
 
@@ -273,5 +305,55 @@
     letter-spacing: -0.02em;
     text-align: right;
     color: rgba(251, 251, 251, 0.5);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footer-top {
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: none;
+  }
+
+  .footer-box-tab {
+    flex-wrap: nowrap;
+  }
+
+  .footer-logo-social {
+    justify-content: flex-start;
+    flex-grow: 1;
+  }
+
+  .footer-contact {
+    order: 1;
+    flex-shrink: 0;
+  }
+
+  .footer-title {
+    max-width: 523px;
+    margin: 0;
+    margin-bottom: 126px;
+    margin-right: 147px;
+  }
+
+  .footer-menu-list {
+    gap: 40px;
+  }
+
+  .footer-menu-list a:not(:last-child) {
+    gap: 40px;
+  }
+
+  .footer-bottom {
+    margin-top: 28px;
+  }
+
+  .footer-bottom-paragraph {
+    font-size: 14px;
+    line-height: 1.28;
+  }
+
+  .footer-bottom-item {
+    font-size: 14px;
+    line-height: 1.28;
   }
 }

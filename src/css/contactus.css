@@ -1,8 +1,4 @@
 .modal-title {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 100%;
-  letter-spacing: -0.02em;
   margin-bottom: 24px;
 }
 
@@ -87,6 +83,7 @@
 .modal-textarea:active {
   border: 1px solid #3350e9;
 }
+
 .modal-textarea:not(:placeholder-shown) {
   border: 1px solid #3350e9;
 }
@@ -106,6 +103,7 @@
   margin: 0 auto;
   padding: 12px;
 }
+
 .btn-subscribe:focus,
 .btn-subscribe:hover {
   background-color: #1f3cd4;
@@ -119,6 +117,7 @@
   .modal-input {
     width: 279px;
   }
+
   .modal-textarea {
     width: 279px;
   }
