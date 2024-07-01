@@ -31,6 +31,8 @@
   font-weight: 500;
   font-size: 16px;
   letter-spacing: -0.02em;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 @media screen and (min-width: 768px) {
@@ -51,6 +53,16 @@
   line-height: 129%;
   text-align: center;
   padding: 4px;
+}
+
+.header-menu-circle {
+  display: flex;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #3350e9;
+  margin: 0 auto;
+  /* opacity: 0; */
 }
 
 .social-container {
