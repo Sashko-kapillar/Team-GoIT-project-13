@@ -1,5 +1,5 @@
 .section-hero {
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .container-hero {
@@ -130,8 +130,6 @@
     .container-information-hero {
         display: flex;
         flex-direction: row;
-        align-items: space-between;
-        justify-content: baseline;
         gap: 11px;
         margin-bottom: 40px;
     }
