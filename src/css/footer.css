@@ -76,6 +76,14 @@
   text-align: center;
 }
 
+.footer-contact-link:hover {
+  opacity: 0.8;
+}
+
+.footer-contact-link:focus {
+  opacity: 0.8;
+}
+
 .footer-title {
   font-weight: 600;
   font-size: 20px;
@@ -109,6 +117,15 @@
   font-size: 12px;
   line-height: 1.33;
   color: #fbfbfb;
+  opacity: 0.8;
+}
+
+.footer-menu-item:hover {
+  opacity: 1;
+}
+
+.footer-social-item:focus {
+  opacity: 1;
 }
 
 .footer-address {
@@ -123,8 +140,15 @@
   line-height: 1.33;
   color: #fbfbfb;
   font-style: normal;
+  opacity: 0.8;
+}
+.footer-address-paragraph:hover {
+  opacity: 1;
 }
 
+.footer-address-paragraph:focus {
+  opacity: 1;
+}
 .footer-border {
   border: 1px solid;
   width: 100%;
