@@ -41,7 +41,7 @@
   background-color: #1f3cd4;
 }
 
-.about-us-image {
+.about-us-image img{ 
   border-radius: 30px;
 }
 
@@ -65,7 +65,26 @@
     margin-bottom: 60px;
   }
 
-  .about-us-image {
+  .about-us-image img{
+    width: 100%;
     border-radius: 50px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .about-us-container {
+    display: flex;
+    gap: 40px; 
+  }
+
+  .about-us-content {
+    width: 580px;
+    margin-bottom: 0;
+  }
+  
+  .about-us-text:last-of-type {
+      margin-bottom: 40px;
+    }
+
+}
+
