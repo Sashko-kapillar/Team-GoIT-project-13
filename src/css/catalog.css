@@ -104,8 +104,8 @@
   .catalog-picture {
   }
 }
-/* @media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .catalog-item {
     width: calc((100% - 48px) / 3);
   }
-} */
+}
