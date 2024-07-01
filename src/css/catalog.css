@@ -28,13 +28,13 @@
 .catalog-picture {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  /background-color: #f3f3f3;
-}
-
-.catalog-picture {
+  background-color: #f3f3f3;
   width: 100%;
   height: auto;
-  display: inline-block;
+}
+
+.catalog-img {
+  margin: 0 auto;
 }
 .hide-on-mobile {
   display: none;
@@ -77,15 +77,28 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    width: 280px;
     font-size: 20px;
     line-height: 100%;
+    padding: 0 32px;
+    margin-bottom: 8px;
+  }
+  .catalog-text {
+    padding: 0 0 24px 32px;
   }
 
   .catalog-img {
     margin: 0 auto;
+    width: 280px;
+    height: 312px;
   }
   .btn-show-more {
     display: none;
   }
+  .catalog-picture {
+  }
 }
+/* @media screen and (min-width: 1280px) {
+  .catalog-item {
+    width: calc((100% - 48px) / 3);
+  }
+} */
