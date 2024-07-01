@@ -64,6 +64,12 @@
   pointer-events: none;*/
 }
 
+@media screen and (min-width: 768px) {
+  .mobilebox {
+    width: 330px;
+  }
+}
+
 .mobi-menu-container {
   display: flex;
   justify-content: center;
@@ -119,6 +125,12 @@
   padding-bottom: 40px;
 }
 
+@media screen and (min-width: 768px) {
+  .mobi-social-wrap {
+    padding-bottom: 50px;
+  }
+}
+
 .mobi-social-list {
   gap: 10px;
 }
@@ -127,21 +139,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid rgba(251, 251, 251, 0.1);
+  border: 1px solid rgba(251, 251, 251, 0.1);
   border-radius: 10px;
   width: 34px;
   height: 34px;
+  cursor: pointer;
 }
 
 .mobi-social-item:hover .mobi-icon-link .mobi-icon,
 .mobi-social-item:focus .mobi-icon-link .mobi-icon {
-  fill: #fbfbfb;
+  opacity: 0.8;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobi-social-item:hover,
 .mobi-social-item:focus {
-  border: 2px solid rgba(180, 180, 180, 0.781);
+  opacity: 0.8;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -151,6 +164,7 @@
 
 .mobi-icon {
   fill: #cecece;
+  opacity: 1;
 }
 
 /* -------- Close-btn  ---------- */
