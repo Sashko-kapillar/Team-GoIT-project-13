@@ -74,14 +74,15 @@
   border-radius: 16px;
   padding: 14px 20px;
   text-align: center;
+  opacity: 0.8;
 }
 
 .footer-contact-link:hover {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .footer-contact-link:focus {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .footer-title {
@@ -124,7 +125,7 @@
   opacity: 1;
 }
 
-.footer-social-item:focus {
+.footer-menu-item:focus {
   opacity: 1;
 }
 
