@@ -121,7 +121,7 @@
   display: flex;
   margin-bottom: 2px;
   color: #fbfbfb;
-}*/
+}
 .mobi-menu-circle {
   display: flex;
   width: 8px;
@@ -149,7 +149,7 @@
 }
 .mobi-icon {
   fill: #fbfbfb;
-}
+} */
 
 /* -------- Close-btn  ---------- */
 
@@ -189,10 +189,12 @@
 
 .vector-btn::before {
   top: -4px;
+  /* transform: translateX(50%) rotate(-45deg); */
 }
 
 .vector-btn::after {
   top: 4px;
+  /* transform: translateX(50%) rotate(45deg); */
 }
 
 .vector-btn {
