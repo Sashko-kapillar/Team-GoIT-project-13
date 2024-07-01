@@ -75,14 +75,14 @@
   height: 84px;
   margin-bottom: 28px;
   background-color: transparent;
-  outline: transparentgit;
+  outline: transparent;
   width: 224px;
   font-weight: 400;
   font-size: 14px;
   line-height: 129%;
   resize: none;
 }
-
+.modal-textarea:hover,
 .modal-textarea:focus,
 .modal-textarea:active {
   border: 1px solid #3350e9;
