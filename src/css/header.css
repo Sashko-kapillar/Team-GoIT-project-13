@@ -24,7 +24,7 @@
 } */
 
 .top-line-nav {
-  display: none;
+  /* display: none; */
   align-items: center;
 }
 
@@ -63,6 +63,12 @@
   display: none;
 }
 
+@media screen and (min-width: 1280px) {
+  .social-container {
+    display: flex;
+  }
+}
+
 /*.social-icon-list {
   display: flex;
   gap: 10px;
@@ -88,6 +94,16 @@
   display: flex;
   /* position: relative; */
   /* top: 20px; */
+}
+
+@media screen and (min-width: 1280px) {
+  .btn-menu-container {
+    display: none;
+  }
+}
+
+.menu-list {
+  gap: 40px;
 }
 
 /*.mobi-menu-list {
