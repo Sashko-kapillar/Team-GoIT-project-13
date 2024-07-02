@@ -77,6 +77,8 @@
     padding: 15px 43px 15px 44px;
     white-space: nowrap;
     display: flex;
+    justify-content: center; /* Додає вирівнювання вмісту по горизонталі */
+    align-items: center; /* Додає вирівнювання вмісту по вертикалі */
   }
   
   .advertis-anchor:hover {
