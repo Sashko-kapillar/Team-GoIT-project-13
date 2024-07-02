@@ -75,12 +75,6 @@
   opacity: 0;
 }
 
-.header-link:hover,
-.header-link:focus {
-  color: #3350e9;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .menu-item:hover .header-link + .header-menu-circle {
   cursor: pointer;
   opacity: 1;
@@ -142,8 +136,6 @@
 
 .btn-menu-container {
   display: flex;
-  /* position: relative; */
-  /* top: 20px; */
 }
 
 @media screen and (min-width: 1280px) {
