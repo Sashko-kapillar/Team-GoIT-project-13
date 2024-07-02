@@ -50,6 +50,8 @@ Mobile  max 767px
 }
 
 .btn-show-more {
+  display: flex;
+  justify-content: center;
   border-radius: 16px;
   width: 160px;
   height: 48px;
@@ -61,9 +63,9 @@ Mobile  max 767px
   color: #fbfbfb;
   border: none;
   position: relative;
+  padding: 15px 44px;
   margin: 0 auto;
   margin-top: 20px;
-  margin-bottom: 15px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
