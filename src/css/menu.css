@@ -60,7 +60,7 @@
 }
 
 .mobilebox .btn-close-container .vector-input-close:checked {
-  transform: translateX(100%a);
+  transform: translateX(100%);
 }
 
 @media screen and (min-width: 768px) {
