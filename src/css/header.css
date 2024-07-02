@@ -215,7 +215,7 @@
 .vector-btn::after {
   content: '';
   position: absolute;
-  left: 100;
+  left: 100px;
 }
 
 .vector-btn::before {
