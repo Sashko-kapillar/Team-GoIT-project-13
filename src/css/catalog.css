@@ -44,6 +44,7 @@
 
 .btn-show-more {
   display: flex;
+  justify-content: center;
   cursor: pointer;
   border-radius: 16px;
   width: 160px;
@@ -79,6 +80,9 @@
     gap: 32px 16px;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  .catalog-picture {
+    padding: 24px 32px;
   }
 
   .catalog-title {
