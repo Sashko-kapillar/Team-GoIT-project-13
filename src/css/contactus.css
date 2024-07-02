@@ -50,6 +50,11 @@
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
 }
+.modal-input:invalid {
+  border: none;
+  outline: 1px solid red;
+  border-radius: 12px;
+}
 
 .modal-input:focus,
 .modal-input:active {
@@ -71,8 +76,9 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 129%;
+  resize: none;
 }
-
+.modal-textarea:hover,
 .modal-textarea:focus,
 .modal-textarea:active {
   border: 1px solid #3350e9;
