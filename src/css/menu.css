@@ -67,7 +67,7 @@
 .btn-close-container:focus .vector-close-btn::before,
 .btn-close-container:focus .vector-close-btn::after {
   opacity: 0.8;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (min-width: 768px) {
@@ -115,7 +115,7 @@
 .mobi-menu-link:hover,
 .mobi-menu-link:focus {
   opacity: 0.8;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobi-menu-circle {
@@ -131,7 +131,7 @@
 .mobi-menu-item:hover .mobi-menu-link+.mobi-menu-circle,
 .mobi-menu-item:focus .mobi-menu-link+.mobi-menu-circle {
   opacity: 0.8;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobi-social-wrap {
@@ -159,13 +159,13 @@
 .mobi-icon-link:hover .mobi-icon,
 .mobi-icon-link:focus .mobi-icon {
   opacity: 0.8;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobi-social-item:hover,
 .mobi-social-item:focus {
   opacity: 0.8;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobi-icon-link {
