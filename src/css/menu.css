@@ -27,10 +27,9 @@
 
 .btn-close-container {
   display: flex;
-  width: 34px;
-  height: 34px;
+  width: 20px;
+  height: 20px;
   align-items: center;
-  /* justify-content: center; */
   position: absolute;
   top: 20px;
   right: 20px;
@@ -43,11 +42,9 @@
   position: fixed;
   top: 0;
   right: 0;
-  background-image: linear-gradient(
-      rgba(12, 12, 12, 0.92),
-      rgba(12, 12, 12, 0.92)
-    ),
-    url(../images/backimage-mob-1x.webp);
+  background-image: linear-gradient(rgba(12, 12, 12, 0.92),
+      rgba(12, 12, 12, 0.92)),
+    url(/images/backimage-mob-1x.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -57,25 +54,43 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  padding: 40px 20px;
 }
 
 .mobilebox .btn-close-container .vector-input-close:checked {
   transform: translateX(100%);
 }
 
+.btn-close-container:hover .vector-close-btn::before,
+.btn-close-container:hover .vector-close-btn::after,
+.btn-close-container:focus .vector-close-btn::before,
+.btn-close-container:focus .vector-close-btn::after {
+  opacity: 0.8;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 @media screen and (min-width: 768px) {
   .mobilebox {
     width: 330px;
+    padding: 50px 32px;
+  }
+
+  .btn-close-container {
+    top: 26px;
+    right: 32px;
+    width: 24px;
+    height: 24px;
   }
 }
+
+
 
 .mobi-menu-container {
   display: flex;
   justify-content: center;
   flex-grow: 1;
   align-items: center;
-  padding-bottom: 12px;
-  padding-top: 12px;
+  margin-bottom: 20px;
 }
 
 .mobi-menu-list {
@@ -98,6 +113,12 @@
   color: #fbfbfb;
 }
 
+.mobi-menu-link:hover,
+.mobi-menu-link:focus {
+  opacity: 0.8;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .mobi-menu-circle {
   display: flex;
   width: 8px;
@@ -108,12 +129,10 @@
   opacity: 0;
 }
 
-.mobi-menu-item:hover .mobi-menu-link + .mobi-menu-circle {
-  opacity: 1;
-}
-
-.mobi-menu-item:focus .mobi-menu-link + .mobi-menu-circle {
-  opacity: 1;
+.mobi-menu-item:hover .mobi-menu-link+.mobi-menu-circle,
+.mobi-menu-item:focus .mobi-menu-link+.mobi-menu-circle {
+  opacity: 0.8;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobi-social-wrap {
@@ -121,14 +140,13 @@
   justify-content: center;
   max-height: 34px;
   flex-grow: 1;
-  margin-bottom: 40px;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .mobi-social-wrap {
     margin-bottom: 50px;
   }
-}
+} */
 
 .mobi-social-list {
   gap: 10px;
@@ -145,8 +163,8 @@
   cursor: pointer;
 }
 
-.mobi-social-item:hover .mobi-icon-link .mobi-icon,
-.mobi-social-item:focus .mobi-icon-link .mobi-icon {
+.mobi-icon-link:hover .mobi-icon,
+.mobi-icon-link:focus .mobi-icon {
   opacity: 0.8;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -171,9 +189,10 @@
 .vector-close-btn,
 .vector-close-btn::before,
 .vector-close-btn::after {
-  width: 28px;
+  width: 24px;
   height: 2px;
   background-color: #fbfbfb;
+  border-radius: 2px;
 }
 
 .vector-close-btn::before,
