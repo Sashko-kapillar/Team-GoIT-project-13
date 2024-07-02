@@ -4,7 +4,6 @@
   line-height: 125%;
   letter-spacing: -0.02em;
   color: #0c0c0c;
-  padding: 0 28px;
   margin-bottom: 8px;
 }
 
@@ -89,7 +88,6 @@
     overflow: hidden;
     font-size: 20px;
     line-height: 100%;
-    padding: 0 32px;
   }
 
   .btn-show-more {
