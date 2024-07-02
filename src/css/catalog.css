@@ -15,6 +15,7 @@ Mobile  max 767px
   line-height: 129%;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.5);
+  text-align: left;
 }
 
 .catalog-list {
@@ -31,20 +32,13 @@ Mobile  max 767px
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   background-color: #f3f3f3;
-  width: 100%;
-  height: auto;
-  display: grid;
-  place-items: center;
-  justify-items: start;
-  align-items: start;
   padding: 24px 28px;
 }
 
 .catalog-img {
-  max-width: 100%;
-  height: auto;
   padding: 18px 36px;
 }
+
 .hide-on-mobile {
   display: none;
 }
@@ -73,6 +67,7 @@ Mobile  max 767px
 .btn-show-more:focus {
   background-color: #1f3cd4;
 }
+
 /* ========================================================================================================================================================
 Tablet min 768px
 ======================================================================================================================================================== */
@@ -102,21 +97,13 @@ Tablet min 768px
     overflow: hidden;
     font-size: 20px;
     line-height: 100%;
-    width: 280px;
-  }
-  .catalog-picture {
-    padding: 24px 32px;
-  }
-  .catalog-img {
-    padding: 10px 6px;
-  }
-  .catalog-text {
   }
 
   .btn-show-more {
     display: none;
   }
 }
+
 /* ========================================================================================================================================================
 Desktop min 1280px
 ======================================================================================================================================================== */
