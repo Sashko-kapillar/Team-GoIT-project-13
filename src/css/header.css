@@ -81,13 +81,13 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-item:hover .header-link+.header-menu-circle {
+.menu-item:hover .header-link + .header-menu-circle {
   cursor: pointer;
   opacity: 1;
   transition: opacity 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-item:focus .header-link+.header-menu-circle {
+.menu-item:focus .header-link + .header-menu-circle {
   cursor: pointer;
   opacity: 1;
   color: #3350e9;
@@ -185,7 +185,7 @@
 .vector-btn::after {
   content: '';
   position: absolute;
-  left: 100px;
+  left: 0;
 }
 
 .vector-btn::before {
