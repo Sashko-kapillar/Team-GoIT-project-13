@@ -1,10 +1,11 @@
+/* ========================================================================================================================================================
+Mobile  max 767px
+======================================================================================================================================================== */
 .catalog-subtitle {
   font-weight: 500;
   font-size: 16px;
   line-height: 125%;
   letter-spacing: -0.02em;
-  color: #0c0c0c;
-  padding: 0 28px;
   margin-bottom: 8px;
 }
 
@@ -14,8 +15,6 @@
   line-height: 129%;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.5);
-  padding: 0 0 24px 28px;
-  text-align: left;
 }
 
 .catalog-list {
@@ -34,13 +33,18 @@
   background-color: #f3f3f3;
   width: 100%;
   height: auto;
+  display: grid;
+  place-items: center;
+  justify-items: start;
+  align-items: start;
+  padding: 24px 28px;
 }
 
 .catalog-img {
-  margin: 0 auto;
-  padding: 24px 0 10px;
+  max-width: 100%;
+  height: auto;
+  padding: 18px 36px;
 }
-
 .hide-on-mobile {
   display: none;
 }
@@ -67,6 +71,9 @@
 .btn-show-more:focus {
   background-color: #1f3cd4;
 }
+/* ========================================================================================================================================================
+Tablet min 768px
+======================================================================================================================================================== */
 
 @media screen and (min-width: 768px) {
   .hide-on-mobile {
@@ -93,17 +100,24 @@
     overflow: hidden;
     font-size: 20px;
     line-height: 100%;
-    padding: 0 32px;
+    width: 280px;
   }
-
+  .catalog-picture {
+    padding: 24px 32px;
+  }
+  .catalog-img {
+    padding: 10px 6px;
+  }
   .catalog-text {
-    padding: 0 0 24px 32px;
   }
 
   .btn-show-more {
     display: none;
   }
 }
+/* ========================================================================================================================================================
+Desktop min 1280px
+======================================================================================================================================================== */
 
 @media screen and (min-width: 1280px) {
   .catalog-item {
@@ -117,5 +131,6 @@
   .catalog-subtitle {
     font-size: 20px;
     line-height: 100%;
+    width: 304px;
   }
 }
