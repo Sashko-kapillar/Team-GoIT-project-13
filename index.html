@@ -20,7 +20,7 @@
     />
     
     <script type="module" crossorigin src="/Team-GoIT-project-13/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Team-GoIT-project-13/assets/index-a5b1cc8d.css">
+    <link rel="stylesheet" href="/Team-GoIT-project-13/assets/index-e49c75d8.css">
   </head>
 
   <body>
@@ -624,58 +624,95 @@
 </section>
 
       <section class="section" id="contactus">
-    <div class="container container-contactus">
-        <h2 class="modal-title title" >Contact Us</h2>
-        <div class="contactus-wrap">
-            <div class="modal">
-                <p class="modal-text">Please use the form below to contact us. Enter your name, email, phone, and
-                    message
-                    and
-                    we'll
-                    get back to you shortly.</p>
-                <form class="modal-form">
-                    <div class="modal-field-wrap">
-                        <label for="user-name" class="modal-label"></label>
-                        <div class="container-input">
-                            <input type="text" class="modal-input" name="user-name" id="user-name" placeholder="Name">
-                        </div>
-                    </div>
-                    <div class="modal-field-wrap">
-                        <label for="user-email" class="modal-label"></label>
-                        <div class="container-input">
-                            <input type="text" class="modal-input" name="user-email" id="user-email" placeholder="Email"
-                                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" />
-                        </div>
-                    </div>
-                    <div class="modal-field-wrap">
-                        <label for="user-phone" class="modal-label"></label>
-                        <div class="container-input">
-                            <input type="text" class="modal-input" name="user-phone" id="user-phone" placeholder="+380"
-                                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$">
-                        </div>
-                    </div>
-                    <div class="checkbox-container">
-                        <label class="modal-label" for="user-comment"></label>
-                        <textarea class="modal-textarea" id="user-comment" name="user-comment "
-                            placeholder="Comment"></textarea>
-                        <div><button type="submit" class="btn-subscribe">Send</button></div>
-                    </div>
-                    </label>
-                </form>
+  <div class="container container-contactus">
+    <h2 class="modal-title title">Contact Us</h2>
+    <div class="contactus-wrap">
+      <div class="modal">
+        <p class="modal-text">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form class="modal-form">
+          <div class="modal-field-wrap">
+            <label for="user-name" class="modal-label"></label>
+            <div class="container-input">
+              <input
+                type="text"
+                class="modal-input"
+                name="user-name"
+                id="user-name"
+                placeholder="Name"
+                required
+              />
             </div>
-            <div>
-                <picture>
-                    <source media="(min-width: 1280px)" srcset="/Team-GoIT-project-13/assets/contactus-dec-2904fec9.jpg 1x, /Team-GoIT-project-13/assets/contactus-dec2x-c6233325.jpg 2x">
-                    <source media="(min-width: 768px)" srcset="/Team-GoIT-project-13/assets/contactus-tab-704x556-71bdc2ca.jpg 1x, /Team-GoIT-project-13/assets/contactus-tab2x-1408x1112-8048e3e5.jpg 2x">
-                    <source media="(min-width: 320px)" srcset="/Team-GoIT-project-13/assets/contactusmob1x-c2ee729a.jpg 1x, /Team-GoIT-project-13/assets/contactusmob2x-89d9860a.jpg 2x">
-                    <img class="img-contact-us" src="/Team-GoIT-project-13/assets/contactus-dec-2904fec9.jpg" alt="watch" height="556" width="714">
-                </picture>
+          </div>
+          <div class="modal-field-wrap">
+            <label for="user-email" class="modal-label"></label>
+            <div class="container-input">
+              <input
+                type="email"
+                class="modal-input"
+                name="user-email"
+                id="user-email"
+                placeholder="Email"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                required
+              />
             </div>
-        </div>
-
-
+          </div>
+          <div class="modal-field-wrap">
+            <label for="user-phone" class="modal-label"></label>
+            <div class="container-input">
+              <input
+                type="tel"
+                class="modal-input"
+                name="user-phone"
+                id="user-phone"
+                placeholder="+380-XX-XXX-XX-XX"
+                pattern="^\+\d{3}\d{2}\d{3}\d{2}\d{2}$"
+                required
+              />
+            </div>
+          </div>
+          <div class="checkbox-container">
+            <label class="modal-label" for="user-comment"></label>
+            <textarea
+              class="modal-textarea"
+              id="user-comment"
+              name="user-comment "
+              placeholder="Comment"
+            ></textarea>
+            <div><button type="submit" class="btn-subscribe">Send</button></div>
+          </div>
+        </form>
+      </div>
+      <div>
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="/Team-GoIT-project-13/assets/contactus-dec-2904fec9.jpg 1x, /Team-GoIT-project-13/assets/contactus-dec2x-c6233325.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="/Team-GoIT-project-13/assets/contactus-tab-704x556-71bdc2ca.jpg 1x, /Team-GoIT-project-13/assets/contactus-tab2x-1408x1112-8048e3e5.jpg 2x"
+          />
+          <source
+            media="(min-width: 320px)"
+            srcset="/Team-GoIT-project-13/assets/contactusmob1x-c2ee729a.jpg 1x, /Team-GoIT-project-13/assets/contactusmob2x-89d9860a.jpg 2x"
+          />
+          <img
+            class="img-contact-us"
+            src="/Team-GoIT-project-13/assets/contactus-dec-2904fec9.jpg"
+            alt="watch"
+            height="556"
+            width="714"
+          />
+        </picture>
+      </div>
     </div>
+  </div>
 </section>
+
       <!--    Button close     -->
 
 <div class="mobilebox" data-modal>
