@@ -56,10 +56,6 @@
   border: 1px solid #3350e9;
 }
 
-.modal-input:not(:placeholder-shown) {
-  border: 1px solid #3350e9;
-}
-
 .modal-textarea {
   border-radius: 12px;
   padding: 12px 14px;
