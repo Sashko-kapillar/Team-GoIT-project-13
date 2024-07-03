@@ -56,6 +56,11 @@
   opacity: 0.8;
 }
 
+.footer-social-link:hover,
+.footer-social-link:focus {
+  opacity: 1;
+}
+
 .footer-social-icon {
   fill: #fbfbfb;
   opacity: 0.8;
