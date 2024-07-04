@@ -83,6 +83,10 @@ input:invalid {
   border: 1px solid #3350e9;
 }
 
+.modal-textarea:focus {
+  border: 1px solid #3350e9;
+}
+
 .btn-subscribe {
   min-width: 134px;
   min-height: 42px;
