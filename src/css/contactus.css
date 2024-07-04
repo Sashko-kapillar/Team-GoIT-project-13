@@ -79,11 +79,6 @@ input:invalid {
   border: 1px solid red;
 }
 
-.modal-textarea:focus,
-.modal-textarea:valid {
-  border: 1px solid #3350e9;
-}
-
 .modal-textarea:not(:placeholder-shown) {
   border: 1px solid #3350e9;
 }
