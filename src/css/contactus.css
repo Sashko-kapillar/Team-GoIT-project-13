@@ -55,7 +55,6 @@
 .modal-input:focus,
 .modal-input:valid {
   border: 1px solid #3350e9;
-  outline: #1f3cd4;
 }
 
 .checkbox-container {
